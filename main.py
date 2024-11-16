@@ -1,3 +1,11 @@
+
+# ╱╱╱╭━━━╮╱╱╭╮╱╱╱╭━━╮╱╱╱╭╮
+# ╱╱╱┃╭━╮┃╱╱┃┃╱╱╱┃╭╮┃╱╱╭╯╰╮
+# ╭━╮┃┃╱╰╋━━┫┃╭━━┫╰╯╰┳━┻╮╭╯
+# ┃╭╮┫┃╱╭┫╭╮┃┃┃╭━┫╭━╮┃╭╮┃┃
+# ┃┃┃┃╰━╯┃╭╮┃╰┫╰━┫╰━╯┃╰╯┃╰╮
+# ╰╯╰┻━━━┻╯╰┻━┻━━┻━━━┻━━┻━╯
+
 import telebot
 from telebot import types
 from math import pi
@@ -68,5 +76,5 @@ def default_query(inline_query):
         print(e)
 
 if __name__ == "__main__":
-    bot.infinity_polling()\
+    bot.infinity_polling()
 
